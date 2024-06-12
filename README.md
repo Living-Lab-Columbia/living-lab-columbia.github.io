@@ -5,3 +5,4 @@ Contributions to the Living Lab website are welcome! If you have any questions, 
 
 Email: columbialivinglab@gmail.com
 Lab Address: [?]
+Lab Website: https://living-lab-columbia.github.io/
