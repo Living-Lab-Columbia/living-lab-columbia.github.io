@@ -4,5 +4,7 @@ The website aims to provide an informative and interactive platform for students
 Contributions to the Living Lab website are welcome! If you have any questions, ideas, or suggestions, please contact us:
 
 Email: columbialivinglab@gmail.com
+
 Lab Address: [?]
+
 Lab Website: https://living-lab-columbia.github.io/
