@@ -2920,7 +2920,7 @@ input, select, textarea {
 		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #000000 0%, #4ab7dd 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
-		overflow: auto;
+		overflow: hidden;
 		position: relative;
 		text-align: center;
 	}
@@ -3510,18 +3510,3 @@ input, select, textarea {
 			}
 
 	}
-
-/* Custom Styles for Project Scrolling */
-.projects-scroll {
-    display: flex; /* Lays out the child elements in a row */
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Keeps elements in a single line */
-    padding: 20px 0; /* Optional padding */
-}
-
-.projects-scroll .col-4.col-12-medium {
-    flex: 0 0 auto; /* Prevents the items from growing or shrinking */
-    width: 33.33333%; /* Maintain the original width as defined by your CSS for .col-4 */
-    display: inline-block; /* Ensures proper alignment */
-    margin-right: 20px; /* Space between items */
-}
