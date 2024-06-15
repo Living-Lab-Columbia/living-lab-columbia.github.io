@@ -224,7 +224,7 @@ input, select, textarea {
 			display: block;
 			line-height: 1.75em;
 			padding: 1em 1.5em;
-			overflow-x: hidden;
+			overflow-x: auto;
 		}
 
 	.align-left {
@@ -2619,7 +2619,7 @@ input, select, textarea {
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
-		overflow-x: hidden;
+		overflow-x: auto;
 	}
 
 	table {
@@ -2920,7 +2920,7 @@ input, select, textarea {
 		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #000000 0%, #4ab7dd 100%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
-		overflow: hidden;
+		overflow: auto;
 		position: relative;
 		text-align: center;
 	}
@@ -3514,7 +3514,7 @@ input, select, textarea {
 /* Custom Styles for Project Scrolling */
 .projects-scroll {
     display: flex; /* Lays out the child elements in a row */
-    overflow-x: hidden; /* Enables horizontal scrolling */
+    overflow-x: auto; /* Enables horizontal scrolling */
     white-space: nowrap; /* Keeps elements in a single line */
     padding: 20px 0; /* Optional padding */
 }
