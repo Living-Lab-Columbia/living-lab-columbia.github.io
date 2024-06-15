@@ -224,7 +224,7 @@ input, select, textarea {
 			display: block;
 			line-height: 1.75em;
 			padding: 1em 1.5em;
-			overflow-x: auto;
+			overflow-x: hidden;
 		}
 
 	.align-left {
@@ -2619,7 +2619,7 @@ input, select, textarea {
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
-		overflow-x: auto;
+		overflow-x: hidden;
 	}
 
 	table {
@@ -3514,7 +3514,7 @@ input, select, textarea {
 /* Custom Styles for Project Scrolling */
 .projects-scroll {
     display: flex; /* Lays out the child elements in a row */
-    overflow-x: auto; /* Enables horizontal scrolling */
+    overflow-x: hidden; /* Enables horizontal scrolling */
     white-space: nowrap; /* Keeps elements in a single line */
     padding: 20px 0; /* Optional padding */
 }
