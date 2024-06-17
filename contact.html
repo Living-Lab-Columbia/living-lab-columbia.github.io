@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - The Living Lab</title>
+    <link rel="stylesheet" href="assets/css/main.css"> <!-- Link to your CSS file for styles -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Get the action parameter from the URL
+            var action = new URLSearchParams(window.location.search).get('action');
+            // Set the subject based on the action
+            var subject = action === 'join' ? 'Request to Join' : 'Participation Inquiry';
+            // Update the subject field in the form
+            $('#email-subject').val(subject);
+        });
+    </script>
+</head>
+<body style="background: linear-gradient(to right, #6a11cb, #2575fc);"> <!-- Example gradient background -->
+    <header>
+        <a href="index.html">
+            <img src="path_to_logo_image/logo.png" alt="Homepage">
+        </a>
+    </header>
+
+    <div class="contact-form">
+        <form action="your-server-endpoint" method="POST"> <!-- This needs to point to your email sending script or service -->
+            <input type="hidden" name="recipient" value="columbialivinglab@gmail.com">
+            <input type="hidden" id="email-subject" name="subject">
+            
+            <label for="sender-email">Your Email:</label>
+            <input type="email" id="sender-email" name="senderEmail" required>
+
+            <label for="message-body">Message:</label>
+            <textarea id="message-body" name="message" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>
