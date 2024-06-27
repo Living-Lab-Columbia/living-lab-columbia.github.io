@@ -7,4 +7,4 @@ Email: columbialivinglab@gmail.com
 
 Lab Address: [?]
 
-Lab Website: https://living-lab-columbia.github.io/
+Lab Website: https://livinglabcolumbia.github.io/
